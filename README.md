@@ -8,3 +8,5 @@ Steps to run:
 1) Run the makeAndSplit.py to split the data
 2) Run the train.py to train the model
 3) Run the test.py for inference
+
+<img width = "2406" src = "https://github.com/SiddhanthHegde/You-Need-to-Pay-More-Attention/blob/main/Meme%20img%20.jpg">
