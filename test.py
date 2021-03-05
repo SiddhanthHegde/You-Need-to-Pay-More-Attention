@@ -3,6 +3,7 @@ import pandas as pd
 from dataset import create_data_loader
 from model import multimodal
 from utils import get_predictions
+from zipfile import ZipFile
 
 LOAD_MODEL = True
 device = 'cuda'
