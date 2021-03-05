@@ -1,3 +1,4 @@
+import os
 from shutil import copy2
 
 def move_data(start,troll,not_troll):
@@ -15,3 +16,4 @@ def split_data(start,train,val,split):
       copy2(src,val)
     else:
       copy2(src,train)
+
