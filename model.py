@@ -1,3 +1,8 @@
+import torch
+import torch.nn as nn
+import timm
+from transformers import AutoModel 
+
 class multimodal(nn.Module):
   def __init__(self):
     super(multimodal, self).__init__()

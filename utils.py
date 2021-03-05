@@ -94,7 +94,7 @@ def get_predictions(model,data_loader, device):
                 attention_mask=attention_mask,
                 img=image
             )
-            preds = [0 if x < 0.5 else 1 for x in outputs]
+            preds = ['Non-troll' if x < 0.5 else 'Troll' for x in outputs]
             for j in preds:
                 f_preds.append(j)
     

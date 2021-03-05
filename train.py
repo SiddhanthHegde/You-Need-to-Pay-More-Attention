@@ -21,6 +21,7 @@ from collections import defaultdict
 
 from model import multimodal
 from dataset import create_data_loader
+from utils import train_epoch, eval_model, epoch_time
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 PRE_TRAINED_MODEL_NAME = 'bert-base-multilingual-cased'
