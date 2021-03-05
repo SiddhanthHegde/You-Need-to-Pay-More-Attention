@@ -33,3 +33,6 @@ for img_name in os.listdir('Val'):
 
 train_df = pd.DataFrame(train_df_data,columns=['img_name','captions'])
 val_df = pd.DataFrame(val_df_data,columns=['img_name','captions'])
+
+train_df.to_csv('train_df.csv',index=False)
+val_df.to_csv('val_df.csv',index=False)
